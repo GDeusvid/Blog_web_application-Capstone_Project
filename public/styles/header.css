@@ -1,0 +1,36 @@
+/* PARA DESKTOP */
+@media (min-width: 768px) {
+    
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoname img{
+    width: 5vw;
+    padding-top: .5rem;
+}
+.barrapesquisa input{
+    background-color: #f2f2f2; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px; /* Margens externas de 5 pixels */
+    padding: 10px;
+    width: 200px;
+}
+.barrapesquisa button{
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4b5096; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto branco */
+    cursor: pointer;
+}
+.barrapesquisa button:hover{
+    background-color: rgb(49, 55, 146);
+}
+}

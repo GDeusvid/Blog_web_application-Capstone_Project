@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+    .container_post{
+        margin-top: 1rem;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem 2.5rem;
+
+        background-color: rgb(113, 118, 163);
+        min-height: 70vh;
+        border-radius: 10px;
+    }
+.post{
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    background-color: #f1a686;
+    border-radius: 20px;
+}    
+.mod_post{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: .5rem;
+}
+.edit_post{
+    margin-right: 1rem;
+}
+.edit_post{
+    padding: .2rem .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+.edit_post:hover{
+    background-color: #d3d3d3;
+}
+
+.delete_post{
+    padding: .2rem .2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.delete_post:hover{
+    background-color: #d3d3d3;
+}
+
+
+
+.timer_post{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+}

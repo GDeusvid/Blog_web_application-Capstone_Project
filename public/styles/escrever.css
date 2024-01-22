@@ -1,0 +1,214 @@
+@media (min-width: 768px) {
+.escrevercontainer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    background-color: #474F9A;
+    padding: 1rem 0;
+    width: 55%;
+    border-radius: 10px;
+}
+    .abaescrever{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.canetaEscrever{
+    margin-right: 1rem;
+}
+.canetaEscrever svg{
+    color: rgb(226, 226, 226)
+}
+.botaoEscrever{
+    display: flex;
+    align-items: center;
+    /* color: rgb(226, 226, 226); */
+    font-weight: 100;
+    border-radius: 120px;
+    background-color: #FF6622;
+    width: 80%;
+    height: 2.5rem;
+}
+.botaoEscrever:hover{
+    cursor: pointer;
+    background-color: #f07946;
+    
+}
+.botaoEscrever p{
+margin-left: .5rem;
+font-size: 1.15rem;
+}
+
+#hrDeEscrever{
+    margin-top: 1rem;
+    width: 90%;
+}
+
+
+
+
+.escreverDigitarGERAL{
+    
+    position: absolute;
+    top: 1;
+    left: 10;
+    width: 50%;
+    height: 50%;
+    z-index: 5;
+}
+
+.escreverDigitar{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f08d63;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+}
+.fecharescreverDigitar{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.simbolofechar:hover{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.simbolofechar:hover{
+    
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+
+.corescreverDigitar, .corestexto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.corestexto p{
+    margin: 0;
+    margin-left: .25rem;
+    
+}
+.corestexto{
+padding: .25rem .25rem;
+border-radius: 5px;
+}
+.corestexto:hover{
+    background-color:#d3d3d3 ;
+    cursor: pointer;
+}
+
+
+
+
+.marcarlembreteescreverDigitar{
+    margin: 1rem 0;
+}
+
+
+
+#addimage-btn {
+    background-color: #58C472; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none;
+    width: 6rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#addimage-btn p{
+    margin: 0 0;
+    margin-right: .5rem;
+    
+}
+#addimage-btn:hover {
+    background-color: #81c290; /* Cor de fundo ao passar o mouse */
+}
+
+
+
+.tituloescreverDigitar{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+
+}
+.tituloescreverDigitar input{
+    width: 100%;
+}
+.mensagemescreverDigitar{
+    margin-top: .5rem;
+    display: flex;
+    justify-content: center;
+}
+.mensagemescreverDigitar textarea{
+    width: 100%;
+    
+}
+
+
+
+.createnewpost{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: .5rem;
+}
+#createNote {
+    background-color: #58C472; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none;
+    width: 5rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+#createNote p{
+    margin: 0 0;
+    margin-right: .5rem;
+    
+}
+#createNote:hover {
+    background-color: #81c290; /* Cor de fundo ao passar o mouse */
+}
+
+
+#editNote {
+    background-color: #58C472; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none;
+    width: 5rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+#editNote p{
+    margin: 0 0;
+    margin-right: .5rem;
+    
+}
+#editNote:hover {
+    background-color: #81c290; /* Cor de fundo ao passar o mouse */
+}
+}
